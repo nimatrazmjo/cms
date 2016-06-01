@@ -1,0 +1,378 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background:url(../images/body_back.jpg) repeat-x #333333;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+#main_container
+{
+	width:930px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.site_container
+{
+	float:right;
+	width:930px;
+	background:#FFF;
+}
+
+.top_section
+{
+	float:right; 
+	width:914px; 
+	height:122px;
+	padding:8px;
+	background:url(../images/header_back.jpg) no-repeat;
+}
+
+.nav_section
+{
+	float:right;
+	width:924px;
+	height:38px;
+	padding:3px 3px 15px 3px;
+}
+
+.nav_container_left
+{
+	float:left;
+	width:5px;
+	height:38px;
+	background:url(../images/nav_left_curve.jpg) left no-repeat;
+}
+
+.nav_container_right
+{
+	float:right;
+	width:5px;
+	height:38px;
+	background:url(../images/nav_right_curve.jpg) right no-repeat;
+}
+
+
+
+.twoclo_contaienr
+{
+	float:right; 
+	width:930px; 
+	background:#FFF; 
+	padding-bottom:15px;
+}
+
+.left_col_container
+{
+	float:right;
+	width:644px;
+	padding-right:6px;
+}
+
+.banner_container
+{
+	float:right;
+	width:644px;
+	text-align:center;
+	padding-bottom:5px;
+}
+
+
+.vision_main_container
+{
+	float:right;
+	width:644px;
+	padding-bottom:10px;
+}
+
+.vision_box_container
+{
+	float:right;
+	width:210px;
+	background:#f2f2f2;
+	border:1px solid #e1e1e1; 
+}
+
+.vision_box_title
+{
+	float:right;
+	width:190px;
+	height:19px;
+	color:#FFF;
+	font-size:16px;
+	padding:7px 10px;
+	background:url(../images/vision_back.jpg) no-repeat;
+}
+
+.vision_content_container
+{
+	float:right;
+	width:190px;
+	padding:10px;
+	font-size:11px;
+	color:#545454;
+	line-height:18px;
+	min-height:217px;
+}
+
+.vision_content_container a
+{
+	color:#545454;
+	text-decoration:underline
+}
+
+.vision_content_container a:hover {text-decoration:none}
+
+.vision_box_container ul
+{
+	margin:0px;
+	padding:10px 0px 0px 0px;
+}
+
+.vision_box_container ul li
+{
+	list-style:none;
+	float:right;
+	width:190px;
+	padding-bottom:5px;
+}
+
+.vision_box_container ul li a
+{
+	float:right;
+	width:170px;
+	padding:3px 15px 3px 5px;
+	background:#e6e6e6;
+	background-image:url(../images/vision_bullet.jpg);
+	background-repeat:no-repeat;
+	background-position: right;
+	text-decoration:none;
+}
+
+.vision_box_container ul li a:hover {color:#7bb210}
+
+.awec_network_container
+{
+	float:right;
+	width:190px;
+	padding-bottom:10px;
+}
+
+.awec_network_container span {float:right; font-size:16px; padding-bottom:5px; color:#5f5f5f; font-weight:bold}
+
+.awec_network_logo_contaienr
+{
+	float:right; 
+	padding:15px 25px 15px 5px; 
+	width:595px;
+	vertical-align:middle; 
+	border:10px solid #e3e3e3;	
+}
+	
+.awec_network_logo_contaienr img {padding-left:18px;}	
+
+
+.right_col_container
+{
+	float:left;
+	width:267px;
+	padding-left:6px;
+}
+
+.date_time_contaienr
+{
+	float:right;
+	width:261px;
+	height:40px;
+	background:url(../images/date_time_back.jpg) no-repeat;
+}
+
+.date_time_contaienr .date
+{
+	float:right;
+	width:140px;
+	padding:7px 15px 8px 10px;
+	font-size:18px;
+	color:#FFF;
+	font-weight:normal;
+}
+
+.date_time_contaienr .time
+{
+	float:right;
+	width:94px;
+	padding:10px 0px;
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+}
+
+.donate_contaienr
+{
+	float:right;
+	padding:5px 0px 10px 0px;
+}
+
+.latest_ne_contaienr
+{
+	float:right;
+	width:267px;
+	min-height:260px;
+	border:1px solid #d1d1d1;
+	padding-top:5px;
+	background:url(../images/latest_ne_back.jpg) repeat-x #fafafa;
+}
+
+.latest_ne_title
+{
+	float:right;
+	width:235px;
+	height:20px;
+	padding:9px 35px 7px 0px;
+	color:#FFF;
+	font-size:16px;
+	background:url(../images/latest_netitle_back.jpg) no-repeat;
+}
+
+.latest_ne_contaienr .news_container
+{
+	float:right;
+	width:237px;
+	padding:7px 0px 0px 15px;
+}
+
+.latest_ne_contaienr .news_container a.viewall
+{
+	float:left;
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;
+	color:#FFF;
+	font-size:14px;
+	background:#585858;
+	text-decoration:none
+}
+
+.latest_ne_contaienr .news_container a.viewall:hover {background-color:#373737}
+
+.latest_ne_contaienr .news_container .news
+{
+	float:right;
+	width:235px;
+	color:#545454;
+	padding:7px 0px 10px 0px;
+	line-height:20px;
+	border-bottom:1px dashed #999;
+}
+
+.latest_ne_contaienr .news_container .news a {text-decoration:none; color:#545454;}
+
+.latest_ne_contaienr .news_container .news a:hover {text-decoration:underline; color:#000;}
+
+.latest_ne_contaienr .news_container .news span {font-weight:bold}
+ 
+.email_container
+{
+	float:right;
+	width:267px;
+	border:1px solid #d1d1d1;
+	padding-top:5px;
+	background:url(../images/email_sigh_back.jpg) repeat-x #fbfbfb;
+}
+
+.email_container span
+{
+	float:right;
+	padding:15px;
+}
+
+.email_container span a
+{
+	float:right;
+	background-image:url(../images/email_bullet.jpg);
+	background-repeat:no-repeat; 
+	background-color:#FFF;
+	padding:10px 30px 10px 15px;
+	color:#3d3d3d;
+	text-decoration:underline;
+	background-position:5px 10px;
+}
+
+.email_container span a:hover {text-decoration:none}
+
+.footer_container
+{
+	float:right;
+	width:930px;
+	padding:20px 0px 30px 0px;
+}
+
+.footer_container .nav
+{
+	float:right;
+	width:650px;
+	color:#999;
+	line-height:20px;
+}
+
+.footer_container .nav a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.footer_container .nav a:hover
+{
+	text-decoration:underline;
+}
+
+.visitor_counter_container
+{
+	float:left;
+	width:200px;
+	color:#FFF;
+}
+
+.visitor_title
+{
+	float:right;
+	color:#FFF;
+	padding:4px 4px 4px 10px;
+}
+
+/*== Inner Page CSS ==*/
+
+.left_col_content_contaienr
+{
+	float:right;
+	width:610px;
+	line-height:18px;
+	padding:5px 10px 10px 0px;
+}
+
+.left_col_content_contaienr span
+{
+	float:right;
+	width:600px;
+	color:#690;
+	font-size:18px;
+	padding-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
